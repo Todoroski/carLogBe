@@ -1,0 +1,36 @@
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.deps.json
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.runtimeconfig.json
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.runtimeconfig.dev.json
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.dll
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.pdb
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.csprojAssemblyReference.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.AssemblyInfoInputs.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.AssemblyInfo.cs
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.csproj.CoreCompileInputs.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorAssemblyInfo.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorAssemblyInfo.cs
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorTargetAssemblyInfo.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.dll
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.pdb
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.genruntimeconfig.cache
+C:\Martin-itLabs\Web Api\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.deps.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.runtimeconfig.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.runtimeconfig.dev.json
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.dll
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.pdb
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.csprojAssemblyReference.cache
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.AssemblyInfoInputs.cache
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.AssemblyInfo.cs
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorAssemblyInfo.cache
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorAssemblyInfo.cs
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.RazorTargetAssemblyInfo.cache
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.dll
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.pdb
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.genruntimeconfig.cache
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\bin\Debug\netcoreapp2.1\FuelLog.Views.dll
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.csproj.CopyComplete
+C:\Martin - svasta\Testni Proekti ASPNET\FuelLog\FuelLog\obj\Debug\netcoreapp2.1\FuelLog.csproj.CoreCompileInputs.cache
