@@ -4,14 +4,16 @@ using FuelLog.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FuelLog.Migrations
 {
     [DbContext(typeof(FuelContext))]
-    partial class FuelContextModelSnapshot : ModelSnapshot
+    [Migration("20210328195416_AddFuelProperties")]
+    partial class AddFuelProperties
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,8 +45,6 @@ namespace FuelLog.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<int>("AvgConsumption");
-
-                    b.Property<int>("Cost");
 
                     b.Property<DateTime>("Date");
 

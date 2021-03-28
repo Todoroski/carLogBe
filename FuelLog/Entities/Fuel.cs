@@ -14,5 +14,13 @@ namespace FuelLog.Entities
         public string FuelLiters { get; set; }
         [Required]
         public string Price { get; set; }
+        [Required]
+        public int OdoCounter { get; set; }
+        [Required]
+        public DateTime Date { get; set; }
+        [Required]
+        public int AvgConsumption { get; set; }
+        [Required]
+        public int Cost { get; set; }
     }
 }
