@@ -5,16 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using FuelLog.Contexts;
 using FuelLog.Services;
+using FuelLog.Swagger;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.WebSockets.Internal;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 namespace FuelLog
 {
@@ -65,6 +68,26 @@ namespace FuelLog
             services.AddScoped<IFuelRepository, FuelService>();
             services.AddScoped<ICostRepository, CostService>();
 
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1",
+                    new Microsoft.OpenApi.Models.OpenApiInfo
+                    {
+                        Title = "Swagger CarLog",
+                        Description = "Swagger for CarLog",
+                        Version = "v1"
+                    });
+                options.AddSecurityDefinition("bearer", 
+                    new OpenApiSecurityScheme
+                    {
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    In = ParameterLocation.Header,
+                    Scheme = "bearer"
+                    });
+                options.OperationFilter<AuthenticationRequirementsOperationFilter>();
+            });
+
             services.AddMvc();
         }
 
@@ -81,6 +104,12 @@ namespace FuelLog
             }
 
             app.UseAuthentication();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger CarLog API");
+            });
 
             app.UseMvc();
         }
