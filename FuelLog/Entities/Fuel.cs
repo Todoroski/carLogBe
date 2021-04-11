@@ -19,7 +19,7 @@ namespace FuelLog.Entities
         [Required]
         public DateTime Date { get; set; }
         [Required]
-        public int AvgConsumption { get; set; }
+        public decimal AvgConsumption { get; set; }
         [Required]
         public int Cost { get; set; }
     }

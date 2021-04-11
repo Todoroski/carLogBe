@@ -88,6 +88,16 @@ namespace FuelLog
                 options.OperationFilter<AuthenticationRequirementsOperationFilter>();
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "AllowAll",
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                            .WithMethods("PUT", "DELETE", "GET");
+                    });
+            });
+
             services.AddMvc();
         }
 
@@ -110,6 +120,13 @@ namespace FuelLog
             {
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger CarLog API");
             });
+
+            app.UseHttpsRedirection();
+
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
             app.UseMvc();
         }
